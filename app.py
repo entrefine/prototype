@@ -7,12 +7,12 @@ def index():
 
 @app.route("/mobile-prototype")
 def mobile():
-    return render_templates("mobile-prototype.html")
+    return render_template("mobile-prototype.html")
 
 @app.route("/ipad-prototype")
 def ipad():
-    return render_templates("ipad-prototype.html")
+    return render_template("ipad-prototype.html")
 
 @app.route("/desktop-prototype")
 def desktop():
-    return render_templates("desktop-prototype.html")
+    return render_template("desktop-prototype.html")
